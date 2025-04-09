@@ -1,0 +1,4 @@
+@MyWebApi_HostAddress = http://localhost:5290
+
+GET {{MyWebApi_HostAddress}}/niktamer
+Accept: application/json
