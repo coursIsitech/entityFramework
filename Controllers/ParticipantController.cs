@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyWebApi.DTO;
 using MyWebApi.Services;
+using MyWebApi.Helpers;
 
 namespace MyWebApi.Controllers;
 
@@ -16,10 +17,19 @@ public class ParticipantController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetAll()
+    public async Task<IActionResult> GetAll([FromQuery] PaginationParams paginationParams)
     {
-        var participants = await _service.GetAllAsync();
-        return Ok(participants);
+        var participants = await _service.GetAllQueryableAsync();
+
+        var filtered = participants.ApplyFiltering(paginationParams, p =>
+            p.FirstName.Contains(paginationParams.Search!, StringComparison.OrdinalIgnoreCase) ||
+            p.LastName.Contains(paginationParams.Search!, StringComparison.OrdinalIgnoreCase) ||
+            p.Email.Contains(paginationParams.Search!, StringComparison.OrdinalIgnoreCase)
+        );
+
+        var paged = PagedList<ParticipantDto>.Create(filtered, paginationParams.PageNumber, paginationParams.PageSize);
+
+        return Ok(paged);
     }
 
     [HttpGet("{id}")]

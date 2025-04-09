@@ -97,4 +97,18 @@ public class ParticipantService
     {
         return await _repository.DeleteAsync(id);
     }
+    
+    public async Task<IQueryable<ParticipantDto>> GetAllQueryableAsync()
+    {
+        var participants = await _repository.GetAllAsync();
+        return participants.AsQueryable().Select(p => new ParticipantDto
+        {
+            Id = p.Id,
+            FirstName = p.FirstName,
+            LastName = p.LastName,
+            Email = p.Email,
+            Company = p.Company,
+            JobTitle = p.JobTitle
+        });
+    }
 }
