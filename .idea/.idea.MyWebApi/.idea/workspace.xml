@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc726ded-a9b4-42f5-84f6-9c8ddd94ed59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/CategoryController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EventController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/EventParticipantController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LocationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/ParticipantController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RatingController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/RoomController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/SessionController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/SessionSpeakerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/CategoryDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/EventDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/EventParticipantDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/LocationDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/ParticipantDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/RatingDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/RoomDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/SessionDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DTO/SessionSpeakerDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/PagedList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/PaginationParams.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers/QueryableExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250409131845_InitialCreate.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/20250409131845_InitialCreate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Category.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Event.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/EventParticipant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Location.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Participant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Rating.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Room.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Session.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/SessionSpeaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Speaker.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApi.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApi.http" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApi.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/CategoryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/EventParticipantRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/EventRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ICategoryRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IEventParticipantRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IEventRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ILocationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IParticipantRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IRatingRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/IRoomRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ISessionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ISessionSpeakerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/LocationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/ParticipantRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/RatingRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/RoomRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/SessionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/SessionSpeakerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/CategoryService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/EventParticipantService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/EventService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/LocationService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/ParticipantService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/RatingService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/RoomService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/SessionService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/SessionSpeakerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appsettings.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2vWqwvieuewzIgZRf9s8vzj1p73" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "dev",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc726ded-a9b4-42f5-84f6-9c8ddd94ed59" name="Changes" comment="" />
+      <created>1744271421543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744271421543</updated>
+      <workItem from="1744271424548" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
